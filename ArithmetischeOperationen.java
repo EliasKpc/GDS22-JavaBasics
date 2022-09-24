@@ -1,7 +1,7 @@
 public class ArithmetischeOperationen {
     public static void main(String[] args) {
-        int a = 18;
-        int b = 6;
+        int a = 3;
+        int b = 2;
 
         int ErgebnisAddition = a + b;
         System.out.println("Ergebnis Addition: " + ErgebnisAddition);
@@ -21,5 +21,20 @@ public class ArithmetischeOperationen {
         int ErgebnisModulo = a % b;
         System.out.println("Ergebnis Modulo: " + ErgebnisModulo);
 
+
+
+        //a++  --> Bedeutet a = a + 1
+        System.out.println("a++");
+        // ich erwarte mir 3
+        System.out.println(a++);
+        System.out.println("a = " + a); // ich erwarte mir 4
+
+        System.out.println("-----------------");
+
+        //++b
+        System.out.println("++b");
+        // ich erwarte mir 3
+        System.out.println(++b);
+        System.out.println("b = " + b);
     }
 }
